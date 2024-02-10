@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
+
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.all-section {
+    background-color: gainsboro;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+header {
+
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+header h1 {
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 4px;
+    padding: 0;
+}
+
+header p {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+header img {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+
+/* main section */
+main {
+    padding: 50px 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+main .left {
+    padding-right: 15px;
+    border-right: 2px solid black;
+}
+
+.contact-info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info ul li {
+    line-height: 30px;
+}
+
+.educations {
+    margin-top: 50px;
+}
+
+.educations h2 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+
+}
+
+.education {
+    margin-top: 30px;
+}
+
+.education-hsc h3,
+.education-hsc h4,
+.education-bsc h3,
+.education-bsc h4 {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 4px;
+}
+
+.education-hsc p,
+.education-bsc p {
+    margin-top: 4px;
+}
+
+/* main right  */
+main .right {
+    padding: 0 20px;
+    text-align: justify;
+}
+
+.about-me h2 {
+    text-transform: uppercase;
+}
+
+
+
+/* social media */
+.social-media {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.social-media ul {
+    display: flex;
+    gap: 20px;
+}
+
+.social-media ul li {
+    font-size: 28px;
+    list-style: none;
+}
+
+.social-media ul li a {
+    color: black;
+}
+
+/* my skills */
+.my-skills {
+    margin-top: 50px;
+}
+
+.my-skills h2 {
+    text-transform: uppercase;
+
+}
+
+.skills {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.skill {
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 12px;
+    text-align: center;
+}
+
+/* why shopify  */
+.why-shopify {
+    margin-top: 50px;
+}
+.why-shopify h2 {
+    text-transform: uppercase;
+}
+.why-shopify ol {
+    line-height: 25px;
+}
+.why-shopify p {
+    line-height: 25px;
+}
